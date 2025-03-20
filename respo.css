@@ -1,0 +1,69 @@
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+    .header h2 {
+        font-size: 1.5em;
+    }
+
+    .header h3 {
+        font-size: 1.2em;
+    }
+
+    .menu {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .menu h2 {
+        font-size: 1.3em;
+    }
+
+    .menu ul li {
+        font-size: 0.9em;
+    }
+
+    .menu ul li span {
+        font-size: 0.9em;
+    }
+
+    #cardapio {
+        padding: 10px;
+    }
+
+    .zap {
+        font-size: 1em;
+    }
+
+    #futterp {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h2 {
+        font-size: 1.2em;
+    }
+
+    .header h3 {
+        font-size: 1em;
+    }
+
+    .menu h2 {
+        font-size: 1.1em;
+    }
+
+    .menu ul li {
+        font-size: 0.8em;
+    }
+
+    .menu ul li span {
+        font-size: 0.8em;
+    }
+
+    .zap {
+        font-size: 0.9em;
+    }
+
+    #futterp {
+        font-size: 0.7em;
+    }
+}
