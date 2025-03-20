@@ -97,6 +97,7 @@ p {
     max-width: 100%; /* Garante que o menu não ultrapasse a largura da tela */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow-x: hidden; /* Evita rolagem horizontal */
+
 }
 
 /* Estilos para o título do cardápio */
@@ -132,7 +133,7 @@ p {
     border-radius: 50px;
     font-size: 1.8rem;
 }
-span{
+#preco{
     background-color: #ffe600;
     color: #000000;
 }
@@ -148,7 +149,7 @@ ul {
     display: inline-block; /* Faz a lista se comportar como um bloco em linha */
     text-align: left;
     width: 10000vh;
-    max-width: 600px; /* Limita a largura para não ficar muito larga */
+    max-width:100%; /* Limita a largura para não ficar muito larga */
 }
 
 /* Estilo para cada item do cardápio */
@@ -195,4 +196,9 @@ ul li:hover {
 }
 .menu ul li:last-child {
     border-bottom: none;
+}
+#titulo{
+  color: #ffe600;
+  
+    
 }
