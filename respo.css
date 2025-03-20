@@ -1,15 +1,15 @@
 /* Responsividade para telas menores que 768px */
 @media screen and (max-width: 768px) {
     .menu {
-        padding: 10px; /* Reduz o espaçamento interno */
-        margin: 10px; /* Reduz a margem externa */
+        padding: 2px; /* Reduz o espaçamento interno */
+        margin: 6px; /* Reduz a margem externa */
     }
 
     .menu h2 {
         font-size: 1.3em; /* Reduz o tamanho da fonte dos títulos */
     }
     .menu ul {
-        padding: 0 5px; /* Reduz ainda mais o espaçamento nas laterais */
+        padding: 0 2px; /* Reduz ainda mais o espaçamento nas laterais */
     }
 
     .menu ul li {
@@ -23,7 +23,7 @@
 
 
 /* Responsividade para telas menores que 480px */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 300px) {
     .menu h2 {
         font-size: 1.1em; /* Reduz ainda mais o tamanho da fonte dos títulos */
     }
@@ -47,7 +47,7 @@
     }
 
     #cardapio {
-        padding: 5px; /* Reduz o espaçamento interno */
+        padding: 1px; /* Reduz o espaçamento interno */
     }
 
     .zap {
@@ -70,7 +70,7 @@
     }
 
     #cardapio {
-        padding: 2vh; /* Reduz ainda mais o espaçamento interno */
+        padding: 10px; /* Reduz ainda mais o espaçamento interno */
     }
 
     .zap {
