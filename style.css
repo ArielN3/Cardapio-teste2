@@ -43,7 +43,7 @@ header {
     background-color: rgba(12, 8, 0, 0.411);
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(246, 244, 244, 0.6);
-    padding: 20px;
+    padding: 10px 0;
     margin-bottom: 30px;
     
 }
@@ -83,15 +83,16 @@ p {
     font-size: 1.2em;
     color: #33ff00; /* Tom de verde limão */
     font-weight: bold;
-    text-align: center;
+    text-align: center  ;
    
 }
 
-/* Estilos para o menu */
 .menu {
-    margin-top: 40px;
-    text-align: center;
-    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%; /* Garante que o menu não ultrapasse a largura da tela */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden; /* Evita rolagem horizontal */
 }
 
 /* Estilos para o título do cardápio */
@@ -102,6 +103,8 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+
 #numero{
     border-radius: 50px;
     font-size: 1.8rem;
@@ -112,8 +115,12 @@ span{
 }
 /* Centralizando a lista de itens do cardápio */
 ul {
+    
+    border-bottom: 5px solid #ffe600;
+    font-size: 1em; /* Tamanho padrão para itens da lista */
+    white-space: normal; /* Permite que o texto quebre em várias linhas */
     list-style-type: none;
-    padding: 0;
+    padding: 10px 0;
     margin: 0;
     display: inline-block; /* Faz a lista se comportar como um bloco em linha */
     text-align: left;
@@ -162,4 +169,7 @@ ul li ul li {
 ul li:hover {
     background-color: rgba(48, 46, 46, 0.95);
     cursor: pointer;
+}
+.menu ul li:last-child {
+    border-bottom: none;
 }
