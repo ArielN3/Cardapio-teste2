@@ -1,83 +1,76 @@
-/* Responsividade para telas menores que 768px */
 @media screen and (max-width: 768px) {
     .menu {
-        padding: 2px; /* Reduz o espaçamento interno */
-        margin: 6px; /* Reduz a margem externa */
+        padding: 2px;
+        margin: 6px;
     }
 
     .menu h2 {
-        font-size: 1.3em; /* Reduz o tamanho da fonte dos títulos */
+        font-size: 1.3em;
     }
+
     .menu ul {
-        padding: 0 5px; /* Reduz ainda mais o espaçamento nas laterais */
+        padding: 0 5px;
     }
 
     .menu ul li {
-        font-size: 0.8em; /* Reduz ainda mais o tamanho da fonte dos itens */
+        font-size: 0.8em;
     }
 
     .menu ul li span {
-        font-size: 0.8em; /* Reduz ainda mais o tamanho da fonte dos preços */
-    }
-}
-
-
-/* Responsividade para telas menores que 480px */
-@media screen and (max-width: 300px) {
-    .menu h2 {
-        font-size: 1.1em; /* Reduz ainda mais o tamanho da fonte dos títulos */
+        font-size: 0.8em;
     }
 
-    .menu ul li {
-        font-size: 0.9em; /* Reduz o tamanho da fonte dos itens */
-    }
-
-    .menu ul li span {
-        font-size: 0.9em; /* Reduz o tamanho da fonte dos preços */
-    }
-}
-/* Responsividade para telas menores que 768px */
-@media screen and (max-width: 768px) {
     .header h2 {
-        font-size: 1.5em; /* Reduz o tamanho da fonte do título */
+        font-size: 1.5em;
     }
 
     .header h3 {
-        font-size: 1.2em; /* Reduz o tamanho da fonte do subtítulo */
+        font-size: 1.2em;
     }
 
     #cardapio {
-        padding: 1px; /* Reduz o espaçamento interno */
+        padding: 1px;
     }
 
     .zap {
-        font-size: 1em; /* Reduz o tamanho da fonte do número de WhatsApp */
+        font-size: 1em;
     }
 
     #futterp {
-        font-size: 0.8em; /* Reduz o tamanho da fonte do texto do rodapé */
+        font-size: 0.8em;
     }
 }
 
-/* Responsividade para telas menores que 480px */
 @media screen and (max-width: 480px) {
+    .menu h2 {
+        font-size: 2.1em;
+    }
+
+    .menu ul li {
+        font-size: 0.9em;
+    }
+
+    .menu ul li span {
+        font-size: 0.9em;
+    }
+
     .header h2 {
-        font-size: 1.2em; /* Reduz ainda mais o tamanho da fonte do título */
+        font-size: 1.2em;
     }
 
     .header h3 {
-        font-size: 1em; /* Reduz ainda mais o tamanho da fonte do subtítulo */
+        font-size: 1em;
     }
 
     #cardapio {
-        padding: 10px; /* Reduz ainda mais o espaçamento interno */
+        padding: 10px;
     }
 
     .zap {
-        font-size: 0.9em; /* Reduz ainda mais o tamanho da fonte do número de WhatsApp */
+        font-size: 0.9em;
     }
 
     #futterp {
-        font-size: 0.7em; /* Reduz ainda mais o tamanho da fonte do texto do rodapé */
+        font-size: 0.7em;
     }
 }
