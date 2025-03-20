@@ -9,7 +9,7 @@
         font-size: 1.3em; /* Reduz o tamanho da fonte dos títulos */
     }
     .menu ul {
-        padding: 0 2px; /* Reduz ainda mais o espaçamento nas laterais */
+        padding: 0 5px; /* Reduz ainda mais o espaçamento nas laterais */
     }
 
     .menu ul li {
