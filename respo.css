@@ -32,3 +32,48 @@
         font-size: 0.8em; /* Reduz ainda mais o tamanho da fonte dos preços */
     }
 }
+/* Responsividade para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    .header h2 {
+        font-size: 1.5em; /* Reduz o tamanho da fonte do título */
+    }
+
+    .header h3 {
+        font-size: 1.2em; /* Reduz o tamanho da fonte do subtítulo */
+    }
+
+    #cardapio {
+        padding: 15px; /* Reduz o espaçamento interno */
+    }
+
+    .zap {
+        font-size: 1em; /* Reduz o tamanho da fonte do número de WhatsApp */
+    }
+
+    #futterp {
+        font-size: 0.8em; /* Reduz o tamanho da fonte do texto do rodapé */
+    }
+}
+
+/* Responsividade para telas menores que 480px */
+@media screen and (max-width: 480px) {
+    .header h2 {
+        font-size: 1.2em; /* Reduz ainda mais o tamanho da fonte do título */
+    }
+
+    .header h3 {
+        font-size: 1em; /* Reduz ainda mais o tamanho da fonte do subtítulo */
+    }
+
+    #cardapio {
+        padding: 10px; /* Reduz ainda mais o espaçamento interno */
+    }
+
+    .zap {
+        font-size: 0.9em; /* Reduz ainda mais o tamanho da fonte do número de WhatsApp */
+    }
+
+    #futterp {
+        font-size: 0.7em; /* Reduz ainda mais o tamanho da fonte do texto do rodapé */
+    }
+}
