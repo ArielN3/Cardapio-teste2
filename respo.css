@@ -8,20 +8,8 @@
     .menu h2 {
         font-size: 1.3em; /* Reduz o tamanho da fonte dos títulos */
     }
-
-    .menu ul li {
-        font-size: 0.9em; /* Reduz o tamanho da fonte dos itens */
-    }
-
-    .menu ul li span {
-        font-size: 0.9em; /* Reduz o tamanho da fonte dos preços */
-    }
-}
-
-/* Responsividade para telas menores que 480px */
-@media screen and (max-width: 480px) {
-    .menu h2 {
-        font-size: 1.1em; /* Reduz ainda mais o tamanho da fonte dos títulos */
+    .menu ul {
+        padding: 0 5px; /* Reduz ainda mais o espaçamento nas laterais */
     }
 
     .menu ul li {
@@ -30,6 +18,22 @@
 
     .menu ul li span {
         font-size: 0.8em; /* Reduz ainda mais o tamanho da fonte dos preços */
+    }
+}
+
+
+/* Responsividade para telas menores que 480px */
+@media screen and (max-width: 480px) {
+    .menu h2 {
+        font-size: 1.1em; /* Reduz ainda mais o tamanho da fonte dos títulos */
+    }
+
+    .menu ul li {
+        font-size: 0.9em; /* Reduz o tamanho da fonte dos itens */
+    }
+
+    .menu ul li span {
+        font-size: 0.9em; /* Reduz o tamanho da fonte dos preços */
     }
 }
 /* Responsividade para telas menores que 768px */
