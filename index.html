@@ -10,6 +10,7 @@
     <!-- Configura a viewport para adaptar o layout à largura da tela do dispositivo -->
     <link rel="stylesheet" href="style.css">
     <!-- Vincula a folha de estilo externa "style.css" -->
+    <link rel="stylesheet" href="respo.css">
     <title>Petiscaria Derrubado</title>
     <!-- Define o título da página -->
 </head>
@@ -38,20 +39,20 @@
     <div class="menu" align="center">
 
 
-
-        <h2>🍔 Picanha 🍔</h2>
+<h1 id="executivo">PRATOS <SPAN id="titulo">EXECULTIVOS</SPAN></h1>
+        <h2 id="">🍔 Picanha 🍔</h2>  
         <ul>
             <!-- Lista de itens do cardápio -->
             <li>
                 <b><span id="numero">1</span>.Picanha Grelhada. Arroz Branco. Feijão. Batata Frita e
-                    Salada........................................<span>R$
+                    Salada...<span id="preco">R$
                         15,00</span></b>
 
             </li>
 
             <li>
-                <b><span id="numero">2</span>.Picanha Grelhada. Arroz Branco. Feijão. Guarnição Francesa e
-                    Salada.....................<span>R$
+                <b><span id="numero">2</span>. Arroz Branco. Feijão. Guarnição Francesa e
+                    Salada....................<span id="preco">R$
                         18,00</span></b>
 
 
@@ -59,7 +60,7 @@
 
             <li>
                 <b><span id="numero">3</span>.Picanha Grelhada. Arroz c/Brócolis. Salada e Batata
-                    Frita.............................................<span>R$
+                    Frita................<span id="preco">R$
                         20,00</span></b>
 
 
@@ -69,7 +70,7 @@
 
             <li>
                 <b><span id="numero">4</span>.Picanha Grelhada, Risoto Piamontese da Casa, Batata Frita e
-                    Salada.............................<span>R$
+                    Salada.......................................<span id="preco">R$
                         17,00</span></b>
 
 
@@ -77,7 +78,7 @@
 
             <li>
                 <b><span id="numero">5</span>.Picanha Grelhada, Arroz à Grega, Batata Frita, Feijão e
-                    Salada.......................................<span>R$
+                    Salada....<span id="preco">R$
                         25,00</span></b>
 
             </li>
@@ -85,19 +86,19 @@
         </ul>
 
         <br>
-        <h2>🍔 File Mignon 🍔</h2>
+        <h2 id="file-m">🍔 File Mignon 🍔</h2>
         <ul>
 
             <li>
                 <b><span id="numero">6</span>.Filé Mignon Grelhado, Arroz Branco, Feijão, Batata Frita e
-                    Salada........................................<span>R$
+                    Salada........................................<span id="preco">R$
                         22,00</span></b>
 
             </li>
 
             <li>
                 <b><span id="numero">7</span>.Filé Mignon Grelhado, Risoto Piamontese da Casa, Batata Frita e
-                    Salada............................<span>R$ 19,00</span></b>
+                    Salada.......................................<span id="preco">R$ 19,00</span></b>
 
 
 
@@ -105,7 +106,7 @@
 
             <li>
                 <b><span id="numero">8</span>.Filé Mignon Grelhado, ao Molho de Mostarda, Arroz Branco, Feijão, Batata
-                    Frita e Salada<span>R$ 23,00</span></b>
+                    Frita e Salada............................<span id="preco">R$ 23,00</span></b>
 
 
 
@@ -113,7 +114,7 @@
 
             <li>
                 <b><span id="numero">9</span>.Medalhão de Filé Mignon, Arroz à Oreja, Batata Frita, Feijão e
-                    Salada....................................<span>R$ 28,00</span></b>
+                    Salada........................................<span id="preco">R$ 28,00</span></b>
 
 
 
@@ -121,78 +122,159 @@
 
             <li>
                 <b><span id="numero">10</span>.Strogonoff de Filé Mignon, Arroz Branco, Batata e
-                    Salada..................................................<span>R$ 24,00</span></b>
+                    Salada.........................................<span id="preco">R$ 24,00</span></b>
 
 
             </li>
             <li>
                 <b><span id="numero">11</span>.Parregiana de Filé Mignon, Arroz Branco, Feijão, Batata Frita e
-                    Salada..........................<span>R$ 28,00</span></b>
+                    Salada.........................................<span id="preco">R$ 28,00</span></b>
 
             </li>
         </ul>
 
 
 
-        <h2>🍔 File de Tilpia🍔</h2>
+        <h2 id="file-t">🍔 File de Tilápia🍔</h2>
         <ul>
 
             <li>
-                <b><span id="numero">6</span>.Filé de Tilápia, Arroz Branco, Feijão, Batata Frita e Salada......................................<span>R$
+                <b><span id="numero">12</span>.Filé de Tilápia, Arroz Branco, Feijão, Batata Frita e
+                    Salada........................................<span id="preco">R$
                         22,00</span></b>
 
             </li>
 
             <li>
-                <b><span id="numero">7</span>.Filé de Tilápia, Arroz Branco, Feijão, Guarnição Francesa e Salada ..................<span>R$ 19,00</span></b>
+                <b><span id="numero">13</span>.Filé de Tilápia, Arroz Branco, Feijão, Guarnição Francesa e Salada
+                    ...................................................<span id="preco">R$ 19,00</span></b>
 
 
 
             </li>
 
             <li>
-                <b><span id="numero">8</span>.Filé de Tilápia, Arroz com Brócolis, Salada e Batata Frita...........................................<span>R$ 23,00</span></b>
+                <b><span id="numero">14</span>.Filé de Tilápia, Arroz com Brócolis, Salada e Batata
+                    Frita...........................................<span id="preco">R$ 23,00</span></b>
 
 
 
             </li>
 
             <li>
-                <b><span id="numero">9</span>.Filé de Tilápia, Risoto Piamontese da Casa, Batata Frita e Salada...........................<span>R$ 28,00</span></b>
+                <b><span id="numero">15</span>.Filé de Tilápia, Risoto Piamontese da Casa, Batata Frita e
+                    Salada......................................<span id="preco">R$ 28,00</span></b>
 
 
 
             </li>
 
             <li>
-                <b><span id="numero">10</span>.Filé de Tilápia, Risoto de Brócolis, Batata Frita e Salada......................................<span>R$ 24,00</span></b>
+                <b><span id="numero">16</span>.Filé de Tilápia, Risoto de Brócolis, Batata Frita e
+                    Salada......................................<span id="preco">R$ 24,00</span></b>
 
 
             </li>
             <li>
-                <b><span id="numero">11</span>.Filé de Tilápia, Arroz à Grega, Batata Frita, Feijão e Salada......................................<span>R$ 28,00</span></b>
+                <b><span id="numero">17</span>.Filé de Tilápia, Arroz à Grega, Batata Frita, Feijão e
+                    Salada......................................<span id="preco">R$ 28,00</span></b>
 
             </li>
+
+
+
+
+            <h2 id="file-f">🍔 File de Frango🍔</h2>
+            <ul>
+    
+                <li>
+                    <b><span id="numero">18</span>.Filé de Frango Grelhado, Arroz, Feijão, Batata Frita e Salada........................................<span id="preco">R$
+                            22,00</span></b>
+    
+                </li>
+    
+                <li>
+                    <b><span id="numero">19</span>.Filé de Frango Grelhado, Risoto de Queijo com Brócolis, Batata Frita e Salada
+                        ...................................................<span id="preco">R$ 19,00</span></b>
+    
+    
+    
+                </li>
+    
+                <li>
+                    <b><span id="numero">20</span>.Parmegiana de Frango, Arroz, Batata Frita...........................................<span id="preco">R$ 23,00</span></b>
+    
+    
+    
+                </li>
+    
+                <li>
+                    <b><span id="numero">21</span>.Strogonoff de Frango, Arroz, Batata Frita e Salada......................................<span id="preco">R$ 28,00</span></b>
+    
+    
+    
+                </li>
+    
+                <li>
+                    <b><span id="numero">22</span>.Filé de Frango Grelhado, Arroz à Oregano, Feijão, Batata Frita e Salada......................................<span id="preco">R$ 24,00</span></b>
+    
+    
+                </li>
+                <li>
+                    <b><span id="numero">23</span>.Medalhão de Frango ao Molho de Mostarda, Arroz, Feijão, Fritas e Salada......................................<span id="preco">R$ 28,00</span></b>
+    
+                </li>
+
+
         </ul>
 
 
 
 
+        <h2 id="adc" align="center">🍔ADICIONAIS🍔</h2>
+        <ul>
 
+            <li>
+                <b>.Filé Bovino 120G................<span id="preco">R$
+                        22,00</span></b>
+
+            </li>
+
+            <li>
+                <b>.Filé de Tilápia 120G...........<span id="preco">R$ 19,00</span></b>
+
+
+
+            </li>
+
+            <li>
+                <b>.Filé de Frango 120G..........<span id="preco">R$ 23,00</span></b>
+
+
+
+            </li>
+
+            <li>
+                <b>.Filé de Picanha120G..........<span id="preco">R$ 28,00</span></b>
+
+
+
+            </li>
+
+            <li>
+                <b>.Arroz ou Feijão.....................<span id="preco">R$ 8,00</span></b>
+
+
+            </li>
+            <li>
+                <b>.Ovo........................................<span id="preco">R$ 3,00</span></b>
+
+            </li>
         <br>
 
 
-
-       
     </div>
     <!-- Fim da lista do cardápio -->
-
-
-
-
-
-
-
 
 
     <br><br><br><br><br><br>
@@ -211,10 +293,13 @@
                 <!-- Informações de contato -->
             </tr>
             <tr>
-                <td> <p id="futterp">Lei <b>nº 13.106</b>, de 17 de março de 2015, considera crime vender, fornecer, servir, ministrar ou entregar
-                    bebida alcoólica a criança ou a adolescente, e prevê pena de detenção de dois a quatro anos, além de multa.</p>
-                <!-- Aviso legal sobre a venda de bebidas alcoólicas para menores de idade -->
-            </td>
+                <td>
+                    <p id="futterp">Lei <b>nº 13.106</b>, de 17 de março de 2015, considera crime vender, fornecer,
+                        servir, ministrar ou entregar
+                        bebida alcoólica a criança ou a adolescente, e prevê pena de detenção de dois a quatro anos,
+                        além de multa.</p>
+                    <!-- Aviso legal sobre a venda de bebidas alcoólicas para menores de idade -->
+                </td>
             </tr>
         </table>
     </div>
