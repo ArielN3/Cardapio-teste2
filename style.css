@@ -1,5 +1,6 @@
 /* Estilos gerais do corpo */
 body {
+    width: 100%;
     text-align: center;
     background-color: rgb(58, 58, 58);
     background-image: url(fundo-lanche.avif);
@@ -105,6 +106,25 @@ p {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0 10px; /* Adiciona um pequeno espaçamento nas laterais */
+    margin: 0;
+    overflow: hidden; /* Evita que o conteúdo ultrapasse o contêiner */
+}
+
+.menu ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+    white-space: normal; /* Permite que o texto quebre em várias linhas */
+    word-wrap: break-word; /* Quebra palavras longas para evitar overflow */
+    overflow: visible; /* Garante que o texto não seja cortado */
+}
+.menu ul li b {
+    display: block; /* Faz o texto ocupar toda a largura */
 }
 
 
