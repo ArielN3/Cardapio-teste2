@@ -204,8 +204,10 @@ ul li:hover {
 }
  /* Estilos CSS para o dropdown */
  .dropdown {
-    position: relative;
-    display: inline-block;
+    position: fixed; /* Fixa o dropdown na tela */
+    top: 20px; /* Distância do topo da página */
+    right: 20px; /* Distância da direita da página */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
   }
 
   .dropdown-button {
@@ -226,6 +228,8 @@ ul li:hover {
     z-index: 1;
     border-radius: 4px;
     overflow: hidden;
+    right: 0; /* Alinha o menu à direita do botão */
+    left: auto; /* Garante que o menu não fique alinhado à esquerda */
   }
 
   .dropdown-item {
