@@ -16,6 +16,28 @@
 </head>
 
 <body>
+
+    <script>
+        // Função para alternar (abrir/fechar) o dropdown
+        function toggleDropdown() {
+          const dropdown = document.querySelector('.dropdown');
+          dropdown.classList.toggle('active');
+        }
+    
+        // Fechar o dropdown ao clicar fora dele
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropdown-button')) {
+            const dropdowns = document.querySelectorAll('.dropdown');
+            dropdowns.forEach(dropdown => {
+              if (dropdown.classList.contains('active')) {
+                dropdown.classList.remove('active');
+              }
+            });
+          }
+        };
+      </script>
+
+    
     <!-- Início do corpo do documento HTML -->
 
     <header class="header">
@@ -28,19 +50,35 @@
                     <H3>-⭐⭐1991⭐⭐-</H3>
                     <!-- Título do cardápio -->
                 </td>
+                
             </tr>
+            
         </table>
+        <div class="dropdown">
+            <!-- Botão do dropdown -->
+            <button class="dropdown-button" onclick="toggleDropdown()">
+              Menu Suspenso
+            </button>
+            <!-- Itens do dropdown -->
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#executivo">Pratos Executivos</a>
+              <a class="dropdown-item" href="#file-m">File Mignon</a>
+              <a class="dropdown-item" href="#file-t">File de Tilápia</a>
+              <a class="dropdown-item" href="#file-f">File de Frango</a>
+              <a class="dropdown-item" href="#abc">Adicionais</a>
+              <a class="dropdown-item" href="#bebidas">Bebidas</a>
+              <a class="dropdown-item" href="#suco">Sucos</a>
+
+              adc
+            </div>
+          </div>
     </header>
     <!-- Fim do cabeçalho -->
-
-
-
-
     <div class="menu" align="center">
 <br><br>
 
 <h1 id="executivo">PRATOS <SPAN id="titulo">EXECULTIVOS</SPAN></h1>
-        <h2 id="">🍔 Picanha 🍔</h2>  
+        <h2 id="Picanha">🍔 Picanha 🍔</h2>  
         <ul>
             <!-- Lista de itens do cardápio -->
             <li>
@@ -272,7 +310,7 @@
             </ul>
 
 
-            <h2 id="adc" align="center">🥤BEBIDAS🥤</h2>
+            <h2 id="bebidas" align="center">🥤BEBIDAS🥤</h2>
             <ul>
     
                 <li>
@@ -310,7 +348,7 @@
                     <b>.Heineken 600ML.................<span id="preco">R$ 17,00</span></b>
                 </li>
 
-                <h2 align="center">🥤SUCO🥤</h2>
+                <h2 align="center" id="suco">🥤SUCOS🥤</h2>
                 <h2 align="center" ID="TITULO">↨ SABORES ↨</h2>
     
                 <li>
