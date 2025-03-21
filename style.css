@@ -40,13 +40,15 @@ h3 {
 }
 
 /* Estilos do cabeç alho */
-header {
-    background-color: rgba(12, 8, 0, 0.411);
+.header {
+    background-color: rgb(0, 0, 0);
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(246, 244, 244, 0.6);
-    padding: 10px 0;
-    margin-bottom: 30px;
-    
+    box-shadow: 0 4px 15px rgba(255, 230, 0, 0.545);
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    padding: 10px 0; /* Espaçamento interno */
+    top: 0; /* Alinha no topo da página */
 }
 
 /* Estilos da seção "cardápio" */
@@ -92,7 +94,7 @@ p {
 }
 
 .menu {
-    padding: 20px;
+    padding-top: 0px;
     margin: 20px auto;
     max-width: 100%; /* Garante que o menu não ultrapasse a largura da tela */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -133,6 +135,29 @@ p {
     border-radius: 50px;
     font-size: 1.8rem;
 }
+
+#executivo{
+ padding-top: 250px;
+}
+#file-m{
+    padding-top: 250px;
+   }
+   #file-t{
+    padding-top: 250px;
+   }   
+    #file-f{
+        padding-top: 250px;
+    }
+        #abc{
+            padding-top: 250px;
+        }
+            #bebidas{
+                padding-top: 250px;
+            }
+                #suco{
+                    padding-top: 250px;
+                }
+   
 #preco{
     background-color: #ffe600;
     color: #000000;
@@ -217,6 +242,7 @@ ul li:hover {
     border: none;
     cursor: pointer;
     border-radius: 4px;
+    width: 50px;
   }
 
   .dropdown-menu {
@@ -233,6 +259,7 @@ ul li:hover {
   }
 
   .dropdown-item {
+    
     display: block;
     padding: 10px 20px;
     text-decoration: none;
@@ -255,8 +282,15 @@ ul li:hover {
 
   /* Estilo para as seções da página */
   .section {
+    
     padding: 50px;
     margin: 20px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+  }
+  /* Estilos para a imagem dentro do botão */
+  .dropdown-button img {
+    width: 40px; /* Define o tamanho da imagem */
+    height: 40px; /* Define o tamanho da imagem */
+    border-radius: 50%; /* Deixa a imagem redonda (opcional) */
   }
