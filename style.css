@@ -136,6 +136,7 @@ p {
 #preco{
     background-color: #ffe600;
     color: #000000;
+     font-size: 20px;
 }
 /* Centralizando a lista de itens do cardápio */
 ul {
