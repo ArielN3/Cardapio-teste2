@@ -30,7 +30,7 @@
     }
 
     h2 {
-        font-size: 2.2em;
+        font-size: 2.9em;
 
     }
 
@@ -92,6 +92,30 @@
         margin: 10px 0;
     
     }
+    table {
+        background-color: #00000047;
+        width: 100%; /* Largura total */
+        border-collapse: collapse; /* Remove espaços entre as células */
+        margin-top: 10px; /* Espaçamento acima da tabela */
+    }
+    
+    /* Estilo das células */
+    td {
+        padding: 10px; /* Espaçamento interno */
+        border-bottom: 1px solid #ddd; /* Linha divisória entre as linhas */
+        font-family: Arial, sans-serif; /* Fonte */
+        font-size: 20px; /* Tamanho da fonte */
+    }
+    
+    /* Estilo da célula de preço */
+    td:nth-child(2) {
+        text-align: right; /* Alinha o preço à direita */
+        color: #007BFF; /* Cor azul para o preço */
+        font-weight: bold; /* Texto em negrito */
+    }
+
+
+
 
     .menu {
         padding-top: 0px;
@@ -131,9 +155,10 @@
     }
 
 
-    #numero{
-        border-radius: 50px;
-        font-size: 1.8rem;
+    #numero {
+        color: #ffffff; /* Cor escura para o número */
+        font-weight: bold; /* Texto em negrito */
+        font-size: 18px;
     }
 
     #executivo{
@@ -159,8 +184,7 @@
                     }
     
     #preco{
-        background-color: #ffe600;
-        color: #000000;
+        color: #ffe600;
         font-size: 20px;
     }
     /* Centralizando a lista de itens do cardápio */
@@ -248,31 +272,41 @@
     .dropdown-menu {
         display: none; /* Esconde o menu inicialmente */
         position: absolute;
-        background-color: #f9f9f9;
+        background-color: #000000;
+        background-image: url(fundomenu.avif) ;
+        background-position: center;
+        opacity:0.9;
+        opacity: 9px;
         min-width: 160px;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-        border-radius: 4px;
+        z-index: 1000;
+        border-radius: 20px;
+        font: bold;
         overflow: hidden;
         right: 0; /* Alinha o menu à direita do botão */
         left: auto; /* Garante que o menu não fique alinhado à esquerda */
     }
+    
 
     .dropdown-item {
-        
+        z-index: 1000;
+        font: bold;
+        font-family: Arial, Helvetica, sans-serif   ;
         display: block;
         padding: 10px 20px;
         text-decoration: none;
-        color: #333;
+        color: #fffefe;
         background-color: transparent;
         border: none;
         width: 100%;
         text-align: left;
         cursor: pointer;
+        font-size: 1.1rem ;
     }
 
     .dropdown-item:hover {
-        background-color: #ddd;
+        background-color: #0000009e; /* Cor de fundo ao passar o mouse (um tom mais claro) */
+        cursor: pointer; /* Muda o cursor para indicar que o item é clicável */
     }
 
     /* Mostra o menu quando o dropdown está ativo */
