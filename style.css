@@ -1,4 +1,7 @@
-    /* Estilos gerais do corpo */
+html {
+            scroll-behavior: smooth; /* Rolagem suave */
+        }
+/* Estilos gerais do corpo */
     body {
         width: 100%;
         text-align: center;
