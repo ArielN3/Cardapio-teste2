@@ -45,6 +45,27 @@
 }
 
 @media screen and (max-width: 480px) {
+    #executivo{
+        padding-top: 290px;
+        }
+        #file-m{
+            padding-top: 270px;
+        }
+        #file-t{
+            padding-top: 270px;
+        }   
+            #file-f{
+                padding-top: 270px;
+            }
+                #abc{
+                    padding-top: 270px;
+                }
+                    #bebidas{
+                        padding-top: 270px;
+                    }
+                        #suco{
+                            padding-top: 270px;
+                        }
     .menu h2 {
         font-size: 2.9em;
     }
