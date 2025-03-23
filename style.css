@@ -1,7 +1,7 @@
 html {
-            scroll-behavior: smooth; /* Rolagem suave */
-        }
-/* Estilos gerais do corpo */
+    scroll-behavior: smooth; /* Rolagem suave */
+}
+    /* Estilos gerais do corpo */
     body {
         width: 100%;
         text-align: center;
@@ -164,26 +164,26 @@ html {
         font-size: 16px;
     }
 
-    #executivo{
-    padding-top: 270px;
-    }
+        #executivo{
+        padding-top: 290px;
+        }
     #file-m{
-        padding-top: 270px;
+        padding-top: 290px;
     }
     #file-t{
-        padding-top: 270px;
+        padding-top: 290px;
     }   
         #file-f{
-            padding-top: 270px;
+            padding-top: 290px;
         }
             #abc{
-                padding-top: 270px;
+                padding-top: 290px;
             }
                 #bebidas{
-                    padding-top: 270px;
+                    padding-top: 290px;
                 }
                     #suco{
-                        padding-top: 270px;
+                        padding-top: 290px;
                     }
     
     #preco{
