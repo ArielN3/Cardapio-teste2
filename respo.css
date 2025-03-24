@@ -80,6 +80,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    #header{
+        max-height: 100px;
+    }
     .logo-container .logo {
         max-width: 120px; /* Reduz o tamanho do logo */
     }
