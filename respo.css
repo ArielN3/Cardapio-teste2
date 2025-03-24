@@ -85,7 +85,7 @@
     }
 
     .dropdown-button img {
-        width: 25px; /* Reduz o tamanho do ícone do menu */
+        width: 7px; /* Reduz o tamanho do ícone do menu */
     }
 
     .dropdown-menu {
@@ -95,7 +95,7 @@
 
     .dropdown-item {
         padding: 8px 15px; /* Reduz o padding dos itens */
-        font-size: 12px; /* Reduz o tamanho da fonte */
+        font-size: 16px; /* Reduz o tamanho da fonte */
     }
 }
 
@@ -106,7 +106,7 @@
     }
 
     .dropdown-button img {
-        width: 20px; /* Reduz o tamanho do ícone do menu */
+        width: 30px; /* Reduz o tamanho do ícone do menu */
     }
 
     .dropdown-menu {
@@ -116,6 +116,6 @@
 
     .dropdown-item {
         padding: 6px 12px; /* Reduz o padding dos itens */
-        font-size: 11px; /* Reduz o tamanho da fonte */
+        font-size: 14px; /* Reduz o tamanho da fonte */
     }
 }
