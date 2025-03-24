@@ -104,6 +104,9 @@
 
 /* Responsividade para telas muito pequenas (celulares em modo retrato) */
 @media screen and (max-width: 480px) {
+     #header{
+        max-height: 100px;
+    }
     .logo-container .logo {
         max-width: 100px; /* Reduz ainda mais o tamanho do logo */
     }
