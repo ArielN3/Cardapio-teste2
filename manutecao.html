@@ -3,28 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Construção</title>
+    <title>Site em Manutenção</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #f0f0f0; /* Cor de fundo opcional */
+            background: #f7f7f7;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        body img{
+            background-size: cover;
+
+        }
+        .container {
+            max-width: 600px;
+            padding: 30px;
         }
         .construction-img {
-            max-width: 90%;
-            max-height: 90vh;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 30px;
+        }
+        .contact-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-top: 20px;
+        }
+        .contact-text {
+            color: #555;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        .contact-number {
+            display: inline-block;
+            background: #0066ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .contact-number:hover {
+            background: #0052cc;
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
-    <img 
-        src="manutenção.jpg" 
-        alt="Página em construção" 
-        class="construction-img"
-    >
+    <div class="container">
+        <img src="manutenção-removebg-preview.png" alt="Site em manutenção" class="construction-img">
+        
+        <div class="contact-box">
+            <h3 style="color: #333; margin-bottom: 10px;">✨ Transformação em Andamento!</h3>
+            <p class="contact-text">
+                Estamos reformulando tudo para oferecer a você uma experiência <strong>ainda mais incrível</strong>!<br><br>
+                Enquanto finalizamos os últimos detalhes, fique à vontade para nos chamar:
+            </p>
+            
+            <div style="margin: 25px 0;">
+                <a href="tel:+5561981227195" class="contact-number">
+                    <span style="font-size: 18px;">📱 (61) 98122-7195</span>
+                </a>
+                <p style="font-size: 13px; color: #777; margin-top: 8px;">
+                    ( ⏰ Disponível das 7h às 23h - Todos os dias)
+                </p>
+            </div>
+    
+            <p style="font-size: 14px; color: #888; font-style: italic;">
+                "Grandes coisas estão por vir... Aguarde novidades!"
+            </p>
+        </div>
+    </div>
 </body>
 </html>
